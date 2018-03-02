@@ -1,0 +1,47 @@
+/* Image Header - Partial Width
+------------------------------------------------------------ */
+header {
+    float: left;
+    margin:0 0 0 0;
+    padding: 0 0 10px 0 ;
+    width: 100%;
+    height: 60px;
+    background-color: #353535;
+  }
+subheader {
+    float: left;
+    margin:0 0 0 0;
+    padding: 0 0 0 0 ;
+    width: 100%;
+    height: 30px;
+    background-color: #1e2731;
+  }
+
+.button {
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 0 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.header-image #title-area,
+.header-image #title,
+.header-image #title a {
+    display: block;
+    float: left;
+    height: 90px;
+    overflow: hidden;
+    padding: 0;
+    text-indent: -9999px;
+    width: 350px;
+}
+ 
+.header-image #description {
+    display: block;
+    overflow: hidden;
+}
